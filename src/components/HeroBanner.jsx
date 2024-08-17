@@ -1,4 +1,5 @@
 import "./HeroBanner.css";
+import { Link } from "react-router-dom";
 
 function HeroBanner() {
   return (
@@ -9,7 +10,9 @@ function HeroBanner() {
       <div id="hero-content">
         <h1 id="hero-header">SOMOS<br/>FURIA</h1>
         <p>Uma organização de e-sports<br/>de brasileiros, para brasileiros.</p>
-        <button>SAIBA MAIS</button>
+        <Link to="/sobre">
+          <button>SAIBA MAIS</button>
+        </Link>
         </div>
     </section>
   );

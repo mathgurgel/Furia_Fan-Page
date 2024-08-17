@@ -22,7 +22,7 @@ function NavBar() {
 
 
   return (
-    <>
+    <div id="nav-bar">
       <div className="menubar">
         <ul>
           <li>
@@ -76,7 +76,7 @@ function NavBar() {
           </div>
         </nav>
       </header>
-    </>
+    </div>
   );
 }
 
