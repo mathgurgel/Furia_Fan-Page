@@ -1,8 +1,26 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import NavItem from "./NavItem";
 import "./NavBar.css";
 
 function NavBar() {
+  useEffect(() => {
+    const mobileNav = document.querySelector(".hamburger");
+    const navbar = document.querySelector(".menubar");
+
+    const toggleNav = () => {
+      navbar.classList.toggle("active");
+      mobileNav.classList.toggle("hamburger-active");
+    };
+
+    mobileNav.addEventListener("click", toggleNav);
+
+    return () => {
+      mobileNav.removeEventListener("click", toggleNav);
+    };
+  }, []);
+
+
   return (
     <header>
       <div id="logo-container">
@@ -31,6 +49,31 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      <div className="menubar">
+        <ul>
+          <li>
+            <Link to="/" className="link">HOME</Link>
+          </li>
+          <li>
+            <Link to="/sobre" className="link">SOBRE</Link>
+          </li>
+          <li>
+            <Link to="/noticias" className="link">NOTICIAS</Link>
+          </li>
+          <li>
+            <Link to="/calendario" className="link">CALENDARIO</Link>
+          </li>
+          <li>
+            <Link to="/times" className="link">TIMES</Link>
+          </li>
+          <li>
+            <Link to="#" className="link">LOJA</Link>
+          </li>
+          <li>
+            <Link to="/forfun" className="link">4FUN</Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }

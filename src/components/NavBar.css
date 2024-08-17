@@ -11,12 +11,13 @@ header {
   justify-content: flex-start;
   align-items: center;
   background-color: black;
+  z-index: -2;
 }
 
 nav {
-    width: calc(100% - 100px);
-    display: flex;
-    justify-content: flex-end;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: flex-end;
 }
 
 #logo-container {
@@ -87,6 +88,47 @@ nav {
 
 .hamburger-active .line:nth-child(3) {
   transform: translateY(-5px) rotate(90deg);
+}
+
+.menubar {
+  position: absolute;
+  top: 0;
+  left: -60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  height: 100vh;
+  padding: 20% 0;
+  background: rgb(20, 20, 20);
+  transition: all 0.5s ease-in;
+  z-index: -1;
+}
+.active {
+  left: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menubar ul {
+  padding: 0;
+  list-style: none;
+}
+.menubar ul li {
+  margin-bottom: 32px;
+}
+
+.menubar ul li .link {
+  text-decoration: none;
+  font-family: "open sans";
+  color: white;
+  font-size: 95%;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menubar ul li .link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 790px) {
