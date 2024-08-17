@@ -4,14 +4,15 @@
 }
 
 header {
-  height: 80px;
+  z-index: 3;
+  position: absolute;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   background-color: black;
-  z-index: -2;
 }
 
 nav {
@@ -102,7 +103,7 @@ nav {
   padding: 20% 0;
   background: rgb(20, 20, 20);
   transition: all 0.5s ease-in;
-  z-index: -1;
+  z-index: 2;
 }
 .active {
   left: 0;
