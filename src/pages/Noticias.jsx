@@ -1,10 +1,11 @@
 import NavBar from "../components/NavBar";
+import InConstruction from "../components/InConstruction";
 
 function Noticias() {
   return (
     <>
       <NavBar />
-      Em construção...
+      <InConstruction />
     </>
   );
 }

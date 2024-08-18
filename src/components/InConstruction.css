@@ -1,0 +1,11 @@
+.in-construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    translate: 0 100px;
+}
+
+.in-construction-header {
+    font-family: "open sans";
+}

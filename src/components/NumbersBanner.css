@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#numbers-banner {
+  width: 100%;
+  display: flex;
+  padding: 70px 25px;
+  background-color: black;
+  translate: 0 100px;
+  z-index: 0;
+}
+
+#numbers-header {
+  padding: 0px 25px;
+  width: 50%;
+  font-family: "Oswald", sans-serif;
+  font-size: 7vw;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 25px;
+  line-height: 1.1;
+}
+
+#numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.numbers-div {
+  padding: 1vw 2vw;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 30%;
+  background-color: white;
+  color: black;
+  /* font-family: "Oswald", sans-serif; */
+  /* font-size: 1.5vw; */
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 1.2vw;
+}
+
+.icon {
+  height: 100%;
+  width: auto;
+}
+
+.numbers-div-text {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* container-type: size; */
+}
+
+.number {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  /* flex: 1; */
+  container-type: size;
+}
+
+.number span {
+  font-size: 100cqh;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
+
+.description {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  container-type: size;
+}
+
+.description span {
+  font-size: 60cqh;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
