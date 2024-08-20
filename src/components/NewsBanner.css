@@ -1,0 +1,11 @@
+#news-banner {
+    translate: 0 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding-top: 7vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+}
+
