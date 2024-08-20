@@ -1,9 +1,17 @@
 import "./NewsBanner.css";
 import NewsComponent from "./NewsComponent";
+import { GrLinkNext } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 function NewsBanner() {
   return (
     <section id="news-banner">
+      <div id="news-banner-header">
+        <h1 id="news-banner-title">NOTÍCIAS</h1>
+        <Link to="/noticias" className="link"><p id="news-banner-link">Ver todas</p>
+        <GrLinkNext />
+        </Link>
+      </div>
       <NewsComponent
         title="Guerri explica por que acompanhou FURIA em Cologne"
         description="Após seis anos como coach, veterano foi promovido a head de esports"

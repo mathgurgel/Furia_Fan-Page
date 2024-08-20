@@ -2,10 +2,13 @@
     translate: 0 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: white;
     padding-top: 7vw;
     padding-right: 5vw;
+    padding-left: 5vw;
     padding-bottom: 5vw;
 }
 
