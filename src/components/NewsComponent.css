@@ -3,6 +3,7 @@
     flex-direction: row;
     width: 100%;
     margin-bottom: 2vw;
+    z-index: 0;
 }
 
 #news-banner-header {

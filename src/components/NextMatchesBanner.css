@@ -1,0 +1,36 @@
+#next-matches-banner {
+    translate: 0px 100px;
+    z-index: 0;
+    background-color: black;
+    color: white;
+    height: 45vw;
+    padding: 5vw;
+}
+
+#next-matches-banner-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+#matches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+#schedule-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#schedule-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

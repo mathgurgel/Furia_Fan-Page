@@ -1,0 +1,69 @@
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 28vw;
+    height: 24vw;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.match-header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(233, 233, 233);
+    font-size: 1.5vw;
+}
+
+.game-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.game-logo {
+    height: 100%;
+}
+
+.match-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.match-teams {
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+}
+
+.team-logo {
+    height: 50%;
+}
+
+.versus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+.match-tournament {
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw 3vw;
+    font-size: 1.5vw;
+    text-align: center;
+}

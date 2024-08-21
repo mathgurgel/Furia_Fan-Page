@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import HeroBanner from "../components/HeroBanner";
 import NumbersBanner from "../components/NumbersBanner";
 import NewsBanner from "../components/NewsBanner";
+import NextMatchesBanner from "../components/NextMatchesBanner";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HeroBanner />
       <NumbersBanner />
       <NewsBanner />
+      <NextMatchesBanner />
     </div>
   );
 }
