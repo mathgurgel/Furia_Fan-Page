@@ -1,0 +1,65 @@
+#social-media-banner {
+    translate: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5vw 6vw;
+    height: 67vw;
+    z-index: 0;
+}
+
+.social-media-banner-header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5vw;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    height: 70%;
+    margin-bottom: 3vw;
+}
+
+.youtube-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.instagram-post {
+    align-self:flex-start
+}
+
+.tweet-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tweet-embed {
+    align-self: flex-start;
+}
+
+#show-more-media button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    cursor: pointer;
+}

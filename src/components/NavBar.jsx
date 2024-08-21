@@ -46,6 +46,9 @@ function NavBar() {
           <li>
             <Link to="/forfun" className="link">4FUN</Link>
           </li>
+          <li>
+            <Link to="/midia" className="link">MÍDIA</Link>
+          </li>
         </ul>
       </div>
       <header>
@@ -66,6 +69,7 @@ function NavBar() {
             <NavItem sectionName="TIMES"></NavItem>
             <p className="nav-item">LOJA</p>
             <NavItem sectionName="4FUN"></NavItem>
+            <NavItem sectionName="MÍDIA"></NavItem>
           </div>
           <div className="hamburger-container">
             <div className="hamburger">

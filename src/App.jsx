@@ -5,6 +5,7 @@ import ForFun from './pages/ForFun'
 import Noticias from './pages/Noticias'
 import Sobre from './pages/Sobre'
 import Times from './pages/Times'
+import Midia from './pages/Midia'
 import './App.css'
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/times',
     element: <Times />
+  },
+  {
+    path: '/midia',
+    element: <Midia />
   }
 ])
 

@@ -4,6 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import NumbersBanner from "../components/NumbersBanner";
 import NewsBanner from "../components/NewsBanner";
 import NextMatchesBanner from "../components/NextMatchesBanner";
+import SocialMediaBanner from "../components/SocialMediaBanner";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <NumbersBanner />
       <NewsBanner />
       <NextMatchesBanner />
+      <SocialMediaBanner />
     </div>
   );
 }

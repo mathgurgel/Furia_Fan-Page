@@ -7,7 +7,7 @@
 #numbers-banner {
   width: 100%;
   display: flex;
-  padding: 70px 25px;
+  padding: 6vw 2vw;
   background-color: black;
   translate: 0 100px;
   z-index: 0;
