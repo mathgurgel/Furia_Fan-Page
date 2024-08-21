@@ -1,0 +1,48 @@
+#partners-banner {
+    display: flex;
+    translate: 0px 100px;
+    background-color: white;
+    color: black;
+    padding: 5vw 6vw;
+}
+
+#partners-header {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-size: 5vw;
+}
+
+#be-a-partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right: 3vw;
+    font-size: 2vw;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#partners {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2vw;
+}
+
+.partner {
+    width: 30%;
+}
+

@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: url(https://img.freepik.com/fotos-gratis/parede-de-tijolo-preto-texturizado-fundo_53876-63572.jpg?t=st=1724270350~exp=1724273950~hmac=a80fb88cb12b58a0accc98b10e435ff80cb95cbeac1cf53dab203b05ed5bf6d9&w=740);
     padding: 5vw 6vw;
     height: 67vw;
     z-index: 0;
+    color: white;
 }
 
 .social-media-banner-header {
@@ -17,7 +18,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3vw;
-    font-family: "Roboto", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 2.5vw;
 }
 
@@ -53,8 +54,8 @@
 }
 
 #show-more-media button {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 1vw 2vw;
