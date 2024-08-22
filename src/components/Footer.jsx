@@ -37,7 +37,7 @@ function Footer() {
                 </div>
             </div>
             <div id='footer-bottom'>
-                Website designed by Matheus Gurgel.
+                Página desenvolvida por Matheus Gurgel.
             </div>
         </footer>
     );

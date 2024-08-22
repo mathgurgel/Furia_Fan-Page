@@ -7,6 +7,7 @@ import NextMatchesBanner from "../components/NextMatchesBanner";
 import SocialMediaBanner from "../components/SocialMediaBanner";
 import PartnersBanner from "../components/PartnersBanner";
 import ContactUsBanner from "../components/ContactUsBanner";
+import ShopBanner from "../components/ShopBanner";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <NextMatchesBanner />
       <SocialMediaBanner />
       <PartnersBanner />
+      <ShopBanner />
       <ContactUsBanner />
       <Footer />
     </div>

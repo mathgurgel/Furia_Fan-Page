@@ -1,0 +1,69 @@
+#shop-banner {
+    display: flex;
+    background-color: rgb(209, 209, 209);
+    translate: 0 100px;
+    padding: 6vw 5vw;
+    font-family: "Roboto", sans-serif;
+}
+
+#shop-items {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.shop-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.shop-item img {
+    width: 100%;
+}
+
+.shop-item-bottom {
+    height: 8.5vw;
+    padding: 0.5vw 1vw;
+}
+
+.shop-item-name {
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: white;
+    margin-bottom: 0.5vw; 
+}
+
+.shop-item-price {
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 300;
+}
+
+#shop-header {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 5vw;
+}
+
+#shop-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}

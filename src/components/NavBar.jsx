@@ -67,7 +67,7 @@ function NavBar() {
             <NavItem sectionName="NOTÍCIAS"></NavItem>
             <NavItem sectionName="CALENDÁRIO"></NavItem>
             <NavItem sectionName="TIMES"></NavItem>
-            <p className="nav-item">LOJA</p>
+            <a href="https://furia.gg/" target="_blank" className="nav-item">LOJA</a>
             <NavItem sectionName="4FUN"></NavItem>
             <NavItem sectionName="MÍDIA"></NavItem>
           </div>

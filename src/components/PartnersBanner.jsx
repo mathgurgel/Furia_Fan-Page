@@ -5,7 +5,7 @@ function PartnersBanner() {
         <section id="partners-banner">
             <div id="partners-header">
                 <h1 id="partners-call">NOSSOS PARCEIROS</h1>
-                <button id="be-a-partner">SEJA UM FURIOSO</button>
+                <a id="be-a-partner-ref" href='#contact-us-banner'><button id="be-a-partner">SEJA UM FURIOSO</button></a>
             </div>
             <div id="partners">
                 <img className="partner" src="https://furia.gg/wp-content/uploads/2023/12/Copy-of-627-sportsbook-logo-colored.png" />

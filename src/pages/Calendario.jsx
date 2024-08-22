@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import InConstruction from "../components/InConstruction";
 
 function Calendario() {
@@ -6,6 +7,7 @@ function Calendario() {
     <>
       <NavBar />
       <InConstruction />
+      <Footer />
     </>
   );
 }

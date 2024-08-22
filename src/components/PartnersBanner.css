@@ -16,6 +16,10 @@
     font-size: 5vw;
 }
 
+#be-a-partner-ref {
+    align-self: flex-end;
+}
+
 #be-a-partner {
     display: flex;
     align-items: center;
