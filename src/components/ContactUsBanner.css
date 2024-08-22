@@ -24,7 +24,7 @@
 
 #contact-us-forms-header {
     width: 100%;
-    height: 15%;
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
 
 #forms {
     width: 100%;
-    height: 85%;
+    height: 88%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,19 +56,25 @@
     height: 3vw;
     font-size: 1.5vw;
     padding: 0.5vw;
+    width: 20vw;
+}
+
+#submit-forms {
+    cursor: pointer;
 }
 
 #forms label {
     font-size: 1.5vw;
     margin-bottom: 1vw;
     font-family: "Roboto", sans-serif;
-
 }
 
 #forms select {
     font-size: 1.5vw;
     padding: 0.5vw;
     font-family: "Roboto", sans-serif;
+    width: 20vw;
+    height: 3vw;
 }
 
 #forms textarea {
@@ -76,5 +82,5 @@
     padding: 0.5vw;
     height: 8vw;
     font-family: "Roboto", sans-serif;
-
+    width: 20vw;
 }

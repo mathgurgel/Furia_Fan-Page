@@ -23,7 +23,7 @@ function ContactUsBanner() {
                         </select>
                     </div>
                     <div className="forms-item">
-                        <input type="submit" value="Enviar" />
+                        <input id="submit-forms" type="submit" value="Enviar" />
                     </div>
                     <div className="forms-item">
                         <label for="fmail">E-MAIL:</label>
