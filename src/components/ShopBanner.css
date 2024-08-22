@@ -1,6 +1,6 @@
 #shop-banner {
     display: flex;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(192, 192, 192);
     translate: 0 100px;
     padding: 6vw 5vw;
     font-family: "Roboto", sans-serif;
@@ -29,11 +29,15 @@
 .shop-item-bottom {
     height: 8.5vw;
     padding: 0.5vw 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .shop-item-name {
     font-weight: 500;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     color: white;
     margin-bottom: 0.5vw; 
 }
@@ -42,6 +46,7 @@
     font-size: 1.2vw;
     color: white;
     font-weight: 300;
+    align-self: flex-start;
 }
 
 #shop-header {

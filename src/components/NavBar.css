@@ -4,7 +4,7 @@
 }
 
 header {
-  z-index: 3;
+  z-index: 2;
   position: absolute;
   height: 100px;
   width: 100%;
@@ -103,7 +103,7 @@ nav {
   padding: 20% 0;
   background: rgb(20, 20, 20);
   transition: all 0.5s ease-in;
-  z-index: 2;
+  z-index: 3;
 }
 .active {
   left: 0;
