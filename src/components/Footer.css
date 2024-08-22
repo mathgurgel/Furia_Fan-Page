@@ -1,0 +1,75 @@
+#footer {
+    translate: 0px 100px;
+    background-color: rgb(32, 32, 32);
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+#footer-content {
+    display: flex;
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    width: 20%;
+}
+
+#footer-brand p {
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+#footer-brand img {
+    width: 6vw;
+}
+
+#footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+#footer-socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-social {
+    font-size: 4vw;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+#footer-nav .link {
+    font-size: 1.3vw;
+}
+
+#footer-nav .link:hover {
+    text-decoration: underline;
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    font-size: 1.2vw;
+    padding: 0.5vw 1vw;
+}

@@ -41,7 +41,7 @@ function NavBar() {
             <Link to="/times" className="link">TIMES</Link>
           </li>
           <li>
-            <Link to="#" className="link">LOJA</Link>
+            <Link to="https://furia.gg/" className="link">LOJA</Link>
           </li>
           <li>
             <Link to="/forfun" className="link">4FUN</Link>
