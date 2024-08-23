@@ -14,14 +14,14 @@ function NextMatchesBanner() {
                     gameLogo="https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png"
                     date="25-08-24"
                     team1="https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png?20221021154128"
-                    team2="https://liquipedia.net/commons/images/thumb/a/a5/9Pandas_CS_2023_allmode.png/504px-9Pandas_CS_2023_allmode.png"
+                    team2="https://static.wikia.nocookie.net/counter-strike-global-offensive/images/0/0d/9_Pandas_-_logo.png/revision/latest?cb=20230416162212&path-prefix=pl"
                     tournament="BetBoom Dacha Belgrade Season 2 Play-in"
                 />
                 <Match
                     gameLogo="https://img.icons8.com/?size=512&id=hQSBVk8KAnp1&format=png"
                     date="22-08-24"
                     team1="https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png?20221021154128"
-                    team2="https://liquipedia.net/commons/images/6/6c/Nkosi_Ballers_allmode.png"
+                    team2="https://files.tips.gg/static/image/teams/nkosi-ballers-rl.png"
                     tournament="Esports World Cup 2024"
                 />
                 <Match
