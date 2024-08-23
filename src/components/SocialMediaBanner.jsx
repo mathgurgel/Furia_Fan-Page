@@ -26,8 +26,8 @@ function SocialMediaBanner() {
             </div>
             <div className="social-medias">
                 <div className='youtube-videos'>
-                    <YouTubeEmbed className="yt-embed" url="https://www.youtube.com/watch?v=LWqt1Hdlf6o" width={viewportWidth/4} height={viewportWidth/5.5} />
-                    <YouTubeEmbed className="yt-embed" url="https://www.youtube.com/watch?v=Ivkcc78TFWU" width={viewportWidth/4} height={viewportWidth/5.5} />
+                    <YouTubeEmbed className="yt-embed" url="https://www.youtube.com/watch?v=LWqt1Hdlf6o" width={viewportWidth/4} height={viewportWidth/6} />
+                    <YouTubeEmbed className="yt-embed" url="https://www.youtube.com/watch?v=Ivkcc78TFWU" width={viewportWidth/4} height={viewportWidth/6} />
                 </div>
                 <div className="instagram-post">
                     <InstagramEmbed url="https://www.instagram.com/p/C-5699zuS3a" width={viewportWidth/4} height={viewportWidth/2.4} />

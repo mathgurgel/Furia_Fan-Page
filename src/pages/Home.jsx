@@ -4,7 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import NumbersBanner from "../components/NumbersBanner";
 import NewsBanner from "../components/NewsBanner";
 import NextMatchesBanner from "../components/NextMatchesBanner";
-// import SocialMediaBanner from "../components/SocialMediaBanner";
+import SocialMediaBanner from "../components/SocialMediaBanner";
 import PartnersBanner from "../components/PartnersBanner";
 import ContactUsBanner from "../components/ContactUsBanner";
 import ShopBanner from "../components/ShopBanner";
@@ -18,7 +18,7 @@ function Home() {
       <NumbersBanner />
       <NewsBanner />
       <NextMatchesBanner />
-      {/* <SocialMediaBanner /> */}
+      <SocialMediaBanner />
       <PartnersBanner />
       <ShopBanner />
       <ContactUsBanner />

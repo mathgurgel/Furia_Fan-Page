@@ -34,12 +34,15 @@
 .youtube-videos {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 2vw;
     height: 100%;
 }
 
 .instagram-post {
-    align-self:flex-start
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tweet-container {
@@ -50,7 +53,7 @@
 }
 
 .tweet-embed {
-    align-self: flex-start;
+    object-fit: cover;
 }
 
 #show-more-media button {
