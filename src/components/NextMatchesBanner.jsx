@@ -14,7 +14,7 @@ function NextMatchesBanner() {
                     gameLogo="https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png"
                     date="25-08-24"
                     team1="https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png?20221021154128"
-                    team2="https://static.wikia.nocookie.net/counter-strike-global-offensive/images/0/0d/9_Pandas_-_logo.png/revision/latest?cb=20230416162212&path-prefix=pl"
+                    team2="https://cdn.escharts.com/uploads/public/660/54d/bf6/66054dbf6a5ff341426435.png"
                     tournament="BetBoom Dacha Belgrade Season 2 Play-in"
                 />
                 <Match
